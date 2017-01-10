@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<title>Kormsen Movies</title>
+	<meta name="description" content="A development to create interactive movie cards.">
+	<meta name="Kia Hanson" content="Movie Cards">
+
+	<link rel="stylesheet" href="./assets/style.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+	<section class="container">
+
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="star-wars">Star Wars</li>
+			<li class="tab-link" data-tab="pulp-fiction">Pulp Fiction</li>
+			<li class="tab-link" data-tab="chopper">Chopper</li>
+		</ul>
+
+		<div id="star-wars" class="block current">
+			<div class="block-img star-wars-img">
+
+			</div>
+			<div class="block-info">
+				<h2 class="film-title">Star Wars: The Force Awakens</h2>
+
+				<p class="year-released">1997</p>
+
+				<p class="runtime">2h 35m</p>
+
+				<a href="http://www.imdb.com/title/tt2488496/"><p class="critic-rating">8.1 <span>IMDB</span></p></a>
+
+				<p class="description">Thirty years after the Galactic Empire vanquished, a new threat rises. The First Order attempt to rule the Galaxy and only a small bunch of heroes have the ability to stop them. Meanwhile, a female scavenger named Rey teams up with a rogue stormtroopter to return a droid to the resistance base containing a map to a legendary Jedi Master.</p>
+
+				<a href="http://www.imdb.com/title/tt2488496/fullcredits/"><p class="starring"><span>Starring: </span>Harrison Ford, Mark Hamill, Carrie Fisher...</p></a>
+
+				<a href="http://www.imdb.com/title/tt2488496/fullcredits/"><p class="directors"><span>Directed by: </span>JJ Abrams</p></a>
+				<br />
+				<span id="user-rating">
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+				</span>
+				<p class="rate-film">Rate this film</p>
+			</div>
+		</div>
+
+		<div id="pulp-fiction" class="block">
+			<div class="block-img pulp-fiction-img">
+
+			</div>
+			<div class="block-info">
+				<h2 class="film-title">Pulp Fiction</h2>
+
+				<p class="year-released">1994</p>
+
+				<p class="runtime">2h 34m</p>
+
+				<a href="http://www.imdb.com/title/tt0110912/"><p class="critic-rating">8.9 <span>IMDB</span></p></a>
+
+				<p class="description">Series of less-and-more related but separated short stories of crime and comedy that each result into an unexpected ending including unexpected deaths, sudden twists, black comedy events and horrific conclusions of crime and its following consequences.</p>
+
+				<a href="http://www.imdb.com/title/tt0110912/fullcredits"><p class="starring"><span>Starring: </span>John Travolta, Samuel L. Jackson, Tim Roth...</p></a>
+
+				<a href="http://www.imdb.com/title/tt0110912/fullcredits"><p class="directors"><span>Directed by: </span>Quentin Tarantino</p></a>
+				<br />
+				<span id="user-rating">
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+				</span>
+				<p class="rate-film">Rate this film</p>
+			</div>
+		</div>
+
+		<div id="chopper" class="block">
+			<div class="block-img chopper-img">
+
+			</div>
+			<div class="block-info">
+				<h2 class="film-title">Chopper</h2>
+
+				<p class="year-released">2000</p>
+
+				<p class="runtime">1h 34m</p>
+
+				<a href="http://www.imdb.com/title/tt0221073/"><p class="critic-rating">7.2 <span>IMDB</span></p></a>
+
+				<p class="description">
+Chopper tells the intense story of Mark "Chopper" Read, a legendary criminal who wrote his autobiography while serving a jail sentence in prison. His book, "From the Inside", upon which the film is based, was a best-seller.</p>
+
+				<a href="http://www.imdb.com/title/tt0221073/fullcredits"><p class="starring"><span>Starring: </span>Eric Bana, Simon Lyndon, David Field...</p></a>
+
+				<a href="http://www.imdb.com/title/tt0221073/fullcredits"><p class="directors"><span>Directed by: </span>Andrew Dominik</p></a>
+				<br />
+				<span id="user-rating">
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+				</span>
+				<p class="rate-film">Rate this film</p>
+			</div>
+		</div>
+	</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="./assets/main.js"></script>
+</body>
+</html>
